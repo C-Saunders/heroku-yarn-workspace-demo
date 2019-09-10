@@ -1,0 +1,15 @@
+{
+  "name": "main",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "prestart": "yarn workspaces run build",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "typescript": "^3.6.2",
+    "subtractorLibrary": "1.0.0"
+  }
+}

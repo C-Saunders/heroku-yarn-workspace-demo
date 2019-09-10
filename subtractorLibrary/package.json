@@ -1,0 +1,13 @@
+{
+  "name": "subtractorLibrary",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node index.ts"
+  },
+  "dependencies": {
+    "typescript": "^3.6.2"
+  }
+}
