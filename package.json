@@ -2,7 +2,7 @@
   "private": true,
   "workspaces": [
     "main",
-    "main2",
+    "main-two",
     "local-lib"
   ],
   "scripts": {
