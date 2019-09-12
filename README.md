@@ -1,3 +1,5 @@
+This repo demonstrates how you can deploy multiple apps (with local dependencies) on Heroku using yarn workspaces (i.e. Node monorepo on Heroku).
+
 To see it in action:
 1. Create Heroku apps for main and main-two
 1. Add the [Heroku multi-procfile](https://elements.heroku.com/buildpacks/heroku/heroku-buildpack-multi-procfile) and Node.JS buildpacks to each app
@@ -10,6 +12,6 @@ To see it in action:
 1. Push to deploy
   - `git push heroku master`
   - `git push heroku2 master`
-1. Make sure your dynos are running in Heroku (resources tab)
+1. Make sure your dynos are running in Heroku (Resources tab)
 1. Check out the logs
   - `heroku --app <Heroku app name> logs --tail
