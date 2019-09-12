@@ -1,1 +1,1 @@
-main: node main/index.js
+main: yarn workspace main start
