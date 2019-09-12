@@ -3,10 +3,10 @@ This repo demonstrates how you can deploy multiple apps (with local dependencies
 To see it in action:
 1. Create Heroku apps for main and main-two
 1. Add the [Heroku multi-procfile](https://elements.heroku.com/buildpacks/heroku/heroku-buildpack-multi-procfile) and Node.JS buildpacks to each app
-1. Add config vars specifying the location, relative to the project root, of the Procfiles
+1. In Heroku (or using the Heroku CLI), add config vars specifying the location, relative to the project root, of the Procfiles
   - `PROCFILE=main/Procfile`
   - `PROCFILE=main-two/Procfile`
-1. Add git remotes
+1. Add your git remotes
   - `git remote add heroku <git URL>`
   - `git remote add heroku2 <git URL>`
 1. Push to deploy
