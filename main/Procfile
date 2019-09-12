@@ -1,1 +1,1 @@
-test: yarn workspace main start
+main: yarn workspace main start
