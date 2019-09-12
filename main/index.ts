@@ -1,4 +1,4 @@
-import { subtract } from 'subtractorLibrary'
+import { subtract } from 'local-lib'
 
 function testSubtract(a: number, b: number): number {
   return subtract(a, b)

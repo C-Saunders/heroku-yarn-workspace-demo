@@ -2,6 +2,7 @@
   "private": true,
   "workspaces": [
     "main",
-    "subtractorLibrary"
+    "main2",
+    "local-lib"
   ]
 }

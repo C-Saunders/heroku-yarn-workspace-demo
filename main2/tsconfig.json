@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "lib": ["esnext", "dom"],
+    "target": "esnext",
+    "module": "commonjs",
+    "allowJs": false,
+    "noImplicitAny": true
+  },
+  "include": [
+    "./**/*"
+  ]
+}
