@@ -14,4 +14,4 @@ To see it in action:
     - `git push heroku2 master`
 1. Make sure your dynos are running in Heroku (Resources tab)
 1. Check out the logs
-    - `heroku --app <Heroku app name> logs --tail
+    - `heroku --app <Heroku app name> logs --tail`
