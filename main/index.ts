@@ -4,4 +4,4 @@ function testSubtract(a: number, b: number): number {
   return subtract(a, b)
 }
 
-setInterval(() => console.log(`testSubtract(19, 3) = ${testSubtract(19, 3)}`), 1000)
+setInterval(() => console.log(`testSubtract(20, 3) = ${testSubtract(20, 3)}`), 1000)
