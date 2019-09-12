@@ -4,5 +4,8 @@
     "main",
     "main2",
     "local-lib"
-  ]
+  ],
+  "scripts": {
+    "heroku-postbuild": "yarn workspaces run build"
+  }
 }
